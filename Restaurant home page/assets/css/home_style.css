@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color:var(--white);
+}
+:root{
+    --white:white;
+    --black:black;
+}
+body {
+    height: 100vh;
+}
+
+.height-100f {
+    height: 100%;
+}
+
+.main-block {
+    background-image: radial-gradient(rgb(27, 26, 26), rgb(27, 26, 26) 30%,rgb(0, 0, 0));
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.logo-box {
+    margin: 1rem 0;
+}
+
+.logo {
+    font-size: 80px;
+}
+ul{
+    padding-left: 0px !important;
+}
+.image-container {
+    background-image: url(../img/image/burger-home-page.jpg);
+    background-repeat: round;
+}
+
+li {
+    list-style: none;
+}
+
+li a:hover {
+    color: brown;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    margin: 0px 5px 0px 0px;
+}
+.social-media li a span{
+    font-size: 12.5px;
+}
+#letter-icon {
+    font-size: 14px
+}
+
+.letter :hover #letter-icon {
+    color: #E9BE0F;
+}
+
+.facebook :hover #facebook-icon {
+    color: #4867AA;
+}
+
+.twitter :hover #twitter-icon {
+    color: #1DA1F2;
+}
+
+.who-prepared {
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+p b {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.content-box {
+    height: 45.5%;
+    display: flex;
+    align-items: flex-end;
+    width: 81%;
+}
+
+.circular-box {
+    background-color: #e72427;
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.circular-box span {
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.circular-box a{
+    margin-top: 15px;
+    margin-right: 20px;
+    color: white;
+    font-size: 10px;
+    
+}
+footer ul li a{
+    font-size: 10px;
+}
+footer{
+    margin-bottom: 15px;
+}
+.button-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.btn-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color:var(--black);
+    margin: 15px 10px;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-circle i{
+    font-size: 25px;
+}
